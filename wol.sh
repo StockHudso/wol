@@ -22,6 +22,8 @@ MACAddress=$MAC
 
 [Link]
 WakeOnLan=magic
+#fissa il nome dell'interfaccia per evitare che questa cambi per altre ragioni
+Name=$INTERFACCIA
 EOF
 
 echo "File $LINK_FILE creato con successo."
